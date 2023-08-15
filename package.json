@@ -1,0 +1,20 @@
+{
+  "name": "stencil-angular-output-target-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd stencil-components && npm ci && npm run build && cd .. && cd stencil-angular-components && npm ci && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elclanrs/stencil-angular-output-target-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elclanrs/stencil-angular-output-target-test/issues"
+  },
+  "homepage": "https://github.com/elclanrs/stencil-angular-output-target-test#readme"
+}
